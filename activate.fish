@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'C:\Users\PERSONAL\Pictures\Almacenes Sony\venv'
+set -gx VIRTUAL_ENV 'C:\Users\PERSONAL\Pictures\Almacenes Marcimex\venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH
@@ -67,3 +67,4 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
 
     set -gx _OLD_FISH_PROMPT_OVERRIDE "$VIRTUAL_ENV"
 end
+
