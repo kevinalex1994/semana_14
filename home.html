@@ -1,0 +1,8 @@
+<h1>Bienvenido a la app Flask</h1>
+{% if current_user.is_authenticated %}
+    <p>Hola, {{ current_user.nombre }}</p>
+    <a href="{{ url_for('protegida') }}">Ir a ruta protegida</a>
+    <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+{% else %}
+    <a href="{{ url_for('login') }}">Iniciar sesión</a>
+{% endif %}
